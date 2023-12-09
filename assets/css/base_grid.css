@@ -1,0 +1,17 @@
+.base-grid {
+  display: grid;
+  grid-template-columns: 1fr 4fr 0.5fr 4fr 1fr;
+  grid-template-rows: 1fr 4fr 1fr;
+  width: 100vw;
+  height: 100vh;
+}
+
+.base-grid-left {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.base-grid-right {
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+}

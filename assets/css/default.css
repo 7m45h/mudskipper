@@ -1,1 +1,20 @@
 @import url("/assets/css/root.css");
+
+body {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
+
+#intro {
+  background: var(--red);
+}
+
+#page-one {
+  background: var(--green);
+}
+
+#page-two {
+  background: var(--blue);
+}
