@@ -4,12 +4,10 @@
 
 #page-one .base-grid-left {
   grid-column: 2 / 6;
-  grid-row: 2 / 10;
   background: var(--red);
 }
 
 #page-one .base-grid-right {
   grid-column: 7 / 10;
-  grid-row: 2 / 10;
   background: var(--blue);
 }

@@ -4,7 +4,6 @@
 
 #page-two .base-grid-left {
   grid-column: 2 / 10;
-  grid-row: 3 / 9;
   background: var(--red);
 }
 
