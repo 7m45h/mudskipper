@@ -7,5 +7,17 @@
 }
 
 #intro .base-grid-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
   background: var(--blue);
+}
+
+#intro .base-grid-right h1 {
+  font-size: clamp(6vw, 16vh, 6vw);
+}
+
+#intro .base-grid-right h2 {
+  font-size: clamp(3vw, 12vh, 3vw);
 }
