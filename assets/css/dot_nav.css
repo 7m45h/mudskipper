@@ -1,0 +1,13 @@
+.dot-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.dot-nav-btn {
+  width: 10%;
+  aspect-ratio: 1/1;
+  border: var(--border);
+  border-radius: 50%;
+  background: var(--background);
+}
