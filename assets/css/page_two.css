@@ -28,14 +28,14 @@
 #page-two #title h2 {
   color: var(--green);
   font-size: 10vh;
-  text-shadow:  0px -4px 0px var(--background),
-                4px  0px 0px var(--background),
-                0px  4px 0px var(--background),
-               -4px  0px 0px var(--background),
-               -4px -4px 0px var(--background),
-               -4px  4px 0px var(--background),
-                4px  4px 0px var(--background),
-                4px -4px 0px var(--background);
+  text-shadow:  0px -4px 2px var(--background),
+                4px  0px 2px var(--background),
+                0px  4px 2px var(--background),
+               -4px  0px 2px var(--background),
+               -4px -4px 2px var(--background),
+               -4px  4px 2px var(--background),
+                4px  4px 2px var(--background),
+                4px -4px 2px var(--background);
 }
 
 #page-two footer {
