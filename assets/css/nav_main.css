@@ -15,9 +15,17 @@
   aspect-ratio: 1/1;
   border: var(--border);
   border-radius: 50%;
-  background: var(--white);
+  background: var(--background);
 }
 
-.nav-main-btn:hover {
-  background: var(--yellow);
+#anc-intro:hover {
+  background: var(--red);
+}
+
+#anc-page-one:hover {
+  background: var(--green);
+}
+
+#anc-page-two:hover {
+  background: var(--blue);
 }

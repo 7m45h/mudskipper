@@ -7,5 +7,5 @@
   --white:      #abb2bf;
   --background: #000000;
 
-  --border: 2px solid black;
+  --border: 2px solid var(--background);
 }
