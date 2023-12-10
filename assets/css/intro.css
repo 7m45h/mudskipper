@@ -6,6 +6,17 @@
   background: var(--green);
 }
 
+#intro .base-grid-left a {
+  width: 100%;
+  height: 100%;
+}
+
+#intro .base-grid-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 #intro .base-grid-right {
   display: flex;
   flex-direction: column;
