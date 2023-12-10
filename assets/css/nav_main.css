@@ -7,6 +7,10 @@
   right: 0px;
 }
 
+#nav-main .dot-nav-btn {
+  width: 10%;
+}
+
 #anc-intro:hover {
   background: var(--red);
 }
