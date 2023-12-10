@@ -1,5 +1,7 @@
 #page-one {
   background: var(--green);
+  border-top: var(--border);
+  border-bottom: var(--border);
 }
 
 #page-one .base-grid-left {

@@ -39,6 +39,15 @@
 }
 
 #page-two footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   grid-column: 1 / 11;
   grid-row: 10 / 11;
+  border-top: var(--border);
+}
+
+#page-two footer p, #page-two footer a {
+  font-weight: bolder;
+  color: var(--yellow);
 }
