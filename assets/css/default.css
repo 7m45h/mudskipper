@@ -1,20 +1,18 @@
 @import url("/assets/css/root.css");
 
 body {
-  overflow: hidden;
   width: 100vw;
   height: 100vh;
   margin: 0px;
 }
 
-#intro {
-  background: var(--red);
+main {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  scroll-behavior: smooth;
 }
 
-#page-one {
-  background: var(--green);
-}
-
-#page-two {
-  background: var(--blue);
+footer {
+  background: var(--black);
 }

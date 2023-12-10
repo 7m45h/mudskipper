@@ -1,0 +1,11 @@
+#intro {
+  background: var(--red);
+}
+
+#intro .base-grid-left {
+  background: var(--green);
+}
+
+#intro .base-grid-right {
+  background: var(--blue);
+}
