@@ -52,6 +52,10 @@
   width: var(--nav-btn);
 }
 
+#page-two .dot-nav-btn:active {
+  background: var(--red);
+}
+
 #page-two footer {
   display: flex;
   align-items: center;
