@@ -35,12 +35,10 @@
 #page-two .dot-nav {
   grid-column: 2 / 10;
   grid-row: 9 / 10;
-  width: 100%;
-  height: 100%;
 }
 
 #page-two .dot-nav-btn {
-  height: 10%;
+  width: var(--nav-btn);
 }
 
 #page-two footer {

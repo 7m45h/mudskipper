@@ -8,7 +8,7 @@
 }
 
 #nav-main .dot-nav-btn {
-  width: 10%;
+  width: var(--nav-btn);
 }
 
 #anc-intro:hover {
