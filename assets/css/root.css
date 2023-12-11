@@ -8,13 +8,5 @@
   --background: #000000;
 
   --border: 2px solid var(--background);
-  --text-border: 0px -4px 2px var(--background),
-                 4px  0px 2px var(--background),
-                 0px  4px 2px var(--background),
-                -4px  0px 2px var(--background),
-                -4px -4px 2px var(--background),
-                -4px  4px 2px var(--background),
-                 4px  4px 2px var(--background),
-                 4px -4px 2px var(--background);
   --nav-btn: clamp(calc(10vw * 10 / 100), calc(10vh * 10 / 100), calc(10vw * 10 / 100));
 }
