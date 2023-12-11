@@ -22,6 +22,10 @@ a {
   text-decoration: none;
 }
 
+iframe {
+  border: none;
+}
+
 footer {
   background: var(--black);
 }
