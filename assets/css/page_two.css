@@ -34,6 +34,7 @@
   overflow: hidden;
   scroll-behavior: smooth;
   grid-column: 2 / 10;
+  grid-row: 3 / 9;
   background: var(--red);
 }
 
