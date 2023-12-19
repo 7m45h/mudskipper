@@ -29,7 +29,8 @@
   background: var(--blue);
 }
 
-#page-one .base-grid-right a, #page-one .base-grid-right img {
+#page-one .base-grid-right a,
+#page-one .base-grid-right img {
   width: 100%;
   height: 100%;
 }
