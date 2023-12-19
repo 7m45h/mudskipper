@@ -1,0 +1,33 @@
+#loading {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 100vh;
+  background: var(--background);
+  color: var(--white);
+}
+
+#loading h2 {
+  font-size: clamp(5vw, 10vh, 5vw);
+}
+
+#loading #progress {
+  border: var(--border);
+  border-color: var(--white);
+  width: 50vw;
+  height: 20px;
+}
+
+#loading #progress #bar {
+  transition: width 500ms;
+  box-sizing: border-box;
+  border: var(--border);
+  width: 0px;
+  height: 100%;
+  background: var(--white);
+}

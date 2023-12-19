@@ -10,14 +10,22 @@
     <link rel="icon" type="image/png" href="./assets/images/logo.png">
     <link rel="stylesheet" type="text/css" href="./assets/css/root.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/default.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/loading.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/dot_nav.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/nav_main.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/base_grid.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/intro.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/page_one.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/page_two.css">
+    <script src="./assets/scripts/loading.js" defer></script>
   </head>
   <body>
+    <div id="loading">
+      <h2>navigate width dots</h2>
+      <div id="progress">
+        <div id="bar"></div>
+      </div>
+    </div>
     <nav id="nav-main" class="dot-nav">
       <a id="anc-intro" class="dot-nav-btn" href="./#intro"></a>
       <a id="anc-page-one" class="dot-nav-btn" href="./#page-one"></a>
@@ -27,7 +35,7 @@
       <header id="intro" class="base-grid">
         <div class="base-grid-left">
           <a href="https://headlikeanorange.tumblr.com/post/22338315207" target="_blank">
-            <img alt="mudskipper gif from bbc by headlikeanorange" title="mudskipper gif from bbc by headlikeanorange" loading="lazy" src="./assets/images/mudskipper.gif">
+            <img alt="mudskipper gif from bbc by headlikeanorange" title="mudskipper gif from bbc by headlikeanorange" src="./assets/images/mudskipper.gif">
           </a>
         </div>
         <div class="base-grid-right">
@@ -37,11 +45,11 @@
       </header>
       <div id="page-one" class="base-grid">
         <div class="base-grid-left">
-          <iframe src="https://en.wikipedia.org/wiki/Mudskipper" loading="lazy"></iframe>
+          <iframe src="https://en.wikipedia.org/wiki/Mudskipper"></iframe>
         </div>
         <div class="base-grid-right">
           <a href="https://www.mudskipper.no/" target="_blank">
-            <img alt="curious mudskipper from Mudskipper Publishing" title="curious mudskipper from Mudskipper Publishing" loading="lazy" src="./assets/images/curious_mudskipper.png">
+            <img alt="curious mudskipper from Mudskipper Publishing" title="curious mudskipper from Mudskipper Publishing" src="./assets/images/curious_mudskipper.png">
           </a>
         </div>
       </div>
@@ -52,10 +60,10 @@
           </div>
         </div>
         <div class="base-grid-right">
-          <iframe id="video-a" src="https://www.youtube-nocookie.com/embed/FLh4ODMBGJE" allow="fullscreen" loading="lazy"></iframe>
-          <iframe id="video-b" src="https://www.youtube-nocookie.com/embed/AWLhdPpPMyQ" allow="fullscreen" loading="lazy"></iframe>
-          <iframe id="video-c" src="https://www.youtube-nocookie.com/embed/CAQuoH_fOWM" allow="fullscreen" loading="lazy"></iframe>
-          <iframe id="video-d" src="https://www.youtube-nocookie.com/embed/NdpDNx2p67E" allow="fullscreen" loading="lazy"></iframe>
+          <iframe id="video-a" src="https://www.youtube-nocookie.com/embed/FLh4ODMBGJE" allow="fullscreen"></iframe>
+          <iframe id="video-b" src="https://www.youtube-nocookie.com/embed/AWLhdPpPMyQ" allow="fullscreen"></iframe>
+          <iframe id="video-c" src="https://www.youtube-nocookie.com/embed/CAQuoH_fOWM" allow="fullscreen"></iframe>
+          <iframe id="video-d" src="https://www.youtube-nocookie.com/embed/NdpDNx2p67E" allow="fullscreen"></iframe>
         </div>
         <div class="dot-nav">
           <a class="dot-nav-btn" href="./#video-a"></a>
@@ -66,7 +74,7 @@
         <footer>
           <p>
             <a href="https://github.com/7m45h/mudskipper" target="_blank">made by </a>
-            <a href="/" target="_blank">7m45h</a>
+            <a href="https://7m45h.github.io/" target="_blank">7m45h</a>
             <a href="https://github.com/7m45h/mudskipper" target="_blank"> in december 2023</a>
           </p>
         </footer>
