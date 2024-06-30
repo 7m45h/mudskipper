@@ -5,10 +5,10 @@
   flex-direction: column;
   width: 10vw;
   height: 100vh;
-}
 
-#nav-main .dot-nav-btn {
-  width: var(--nav-btn);
+  .dot-nav-btn {
+    width: var(--nav-btn);
+  }
 }
 
 #anc-intro:hover {

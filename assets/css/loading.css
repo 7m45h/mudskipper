@@ -10,24 +10,24 @@
   height: 100vh;
   background: var(--background);
   color: var(--white);
-}
 
-#loading h2 {
-  font-size: clamp(5vw, 10vh, 5vw);
-}
+  h2 {
+    font-size: clamp(5vw, 10vh, 5vw);
+  }
 
-#loading #progress {
-  border: var(--border);
-  border-color: var(--white);
-  width: 50vw;
-  height: 20px;
-}
+  #progress {
+    border: var(--border);
+    border-color: var(--white);
+    width: 50vw;
+    height: 20px;
 
-#loading #progress #bar {
-  transition: width 500ms;
-  box-sizing: border-box;
-  border: var(--border);
-  width: 0px;
-  height: 100%;
-  background: var(--white);
+    #bar {
+      transition: width 500ms;
+      box-sizing: border-box;
+      border: var(--border);
+      width: 0px;
+      height: 100%;
+      background: var(--white);
+    }
+  }
 }

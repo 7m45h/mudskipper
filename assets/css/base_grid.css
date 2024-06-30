@@ -4,16 +4,16 @@
   grid-template-rows: repeat(10, 1fr);
   width: 100vw;
   height: 100vh;
-}
 
-.base-grid-left {
-  grid-column: 2 / 5;
-  grid-row: 2 / 10;
-  border: var(--border);
-}
+  .base-grid-left {
+    grid-column: 2 / 5;
+    grid-row: 2 / 10;
+    border: var(--border);
+  }
 
-.base-grid-right {
-  grid-column: 6 / 10;
-  grid-row: 2 / 10;
-  border: var(--border);
+  .base-grid-right {
+    grid-column: 6 / 10;
+    grid-row: 2 / 10;
+    border: var(--border);
+  }
 }
