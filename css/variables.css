@@ -1,0 +1,17 @@
+:root {
+  --background: #000000;
+  --black:      #282c34;
+  --blue:       #528bff;
+  --green:      #43d08a;
+  --red:        #e05252;
+  --white:      #abb2bf;
+  --yellow:     #ebde6b;
+
+  --introduction-color: var(--red);
+  --aboutme-color: var(--green);
+  --aboutus-color: var(--blue);
+
+  --border: 2px solid var(--background);
+
+  --footer-height: 10dvh;
+}

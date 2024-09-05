@@ -1,0 +1,13 @@
+.dotted-navigator {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .dot {
+    aspect-ratio: 1/1;
+    border: var(--border);
+    border-radius: 50%;
+    width: clamp(calc(10vw * 10 / 100), calc(10vh * 10 / 100), calc(10vw * 10 / 100));
+    background: var(--background);
+  }
+}

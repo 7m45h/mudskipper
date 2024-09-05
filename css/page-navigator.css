@@ -1,0 +1,21 @@
+#page-navigator {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  flex-direction: column;
+  width: 10vw;
+  height: 100vh;
+
+  #dot-introduction:hover {
+    background: var(--introduction-color);
+  }
+
+  #dot-aboutme:hover {
+    background: var(--aboutme-color);
+  }
+
+  #dot-aboutus:hover {
+    background: var(--aboutus-color);
+  }
+}
+
